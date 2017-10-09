@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+<link href="style.css" rel="stylesheet">
+<style>
+	button{
+		height: 64px;
+		min-width: 200px;
+		margin: 32px;
+		border-radius: 32px;
+		border: 2px solid green;
+		outline: none;
+		background: transparent;
+		text-transform: uppercase;
+		font-weight: bold;
+		color : green;
+		cursor: pointer;
+	}
+</style>
+</head>
+
+<body style="/*background-color: #333;*/">
+	<button onclick="showNotification()">Show Notification</button>
+	
+	<div id="push-panel" class="push-panel">
+	</div>
+	
+	<script src="https://randomcolor.llllll.li/randomColor.js"></script>
+	
+	<script src="script.js"></script>
+	<script>
+		function showNotification(){
+			let options = {
+				title : 'like your photo',
+				description : "how are you today? I'm fine thank and you. Thank you so much. haha",
+				user_image : 'http://social.dmobisoft.com/u/i/xcFl3842ZDr7guCswEQf1b9Z1hxibjCzz7AmKOhk.jpeg',
+				item_image : 'http://social.dmobisoft.com/u/i/eAJX7E8lJhkSKG3twqKfvWkPpxxMSLOrOfcEI1Wm.jpeg'
+			}
+			
+			pushNotification(options);
+		}
+	</script>
+</body>
+
+</html>
