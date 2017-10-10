@@ -58,7 +58,8 @@
 			title : 'like your photo',
 			description : "how are you today? I'm fine thank and you. Thank you so much. haha",
 			user_image : 'http://social.dmobisoft.com/u/i/xcFl3842ZDr7guCswEQf1b9Z1hxibjCzz7AmKOhk.jpeg',
-			item_image : 'http://social.dmobisoft.com/u/i/eAJX7E8lJhkSKG3twqKfvWkPpxxMSLOrOfcEI1Wm.jpeg'
+			item_image : 'http://social.dmobisoft.com/u/i/eAJX7E8lJhkSKG3twqKfvWkPpxxMSLOrOfcEI1Wm.jpeg',
+			position : 'top right'
 		};
 		if(params){
 			Object.assign(options, params);
